@@ -1,0 +1,42 @@
+# ---- Build directories ----
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ---- Compiled binaries ----
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# ---- Debug / profiling ----
+*.log
+*.tmp
+*.stackdump
+*.core
+core
+vgcore.*
+
+# ---- IDE / Editor files ----
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# ---- macOS specific ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Misc ----
+Thumbs.dbv
+
