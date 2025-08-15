@@ -16,6 +16,9 @@ Debug mode prints detailed logs and optional OpenCV visualization. Unit tests ge
 From the repo root (same folder as `CMakeLists.txt`, `README.md`, `LICENSE`):
 
 ```bash
+git clone https://github.com/Harry1712/marker-coverage-Harry-Cohen
+cd marker-coverage-Harry-Cohen
+
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DDEBUG_IMGPROC=OFF ..
 cmake --build . -j
